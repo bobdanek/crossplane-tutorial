@@ -51,7 +51,12 @@ kubectl apply \
 # Crossplane #
 ##############
 
+<<<<<<< HEAD
 #helm repo update
+=======
+helm repo add crossplane-stable https://charts.crossplane.io/stable
+helm repo update
+>>>>>>> upstream/main
 
 helm upgrade --install crossplane crossplane \
     --repo https://charts.crossplane.io/stable \
